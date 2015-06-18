@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="SnapButton">
+   <property name="geometry">
+    <rect>
+     <x>368</x>
+     <y>92</y>
+     <width>96</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>截图</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PlaybackButton">
+   <property name="geometry">
+    <rect>
+     <x>368</x>
+     <y>200</y>
+     <width>96</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>回放</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StopButton">
+   <property name="geometry">
+    <rect>
+     <x>368</x>
+     <y>36</y>
+     <width>96</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RecordButton">
+   <property name="geometry">
+    <rect>
+     <x>368</x>
+     <y>148</y>
+     <width>96</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>录制</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
